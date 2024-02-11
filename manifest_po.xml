@@ -12,7 +12,7 @@
 
           <!-- blobs for sm8450 vendor -->
       <project name="Arman-ATI/vendor_oneplus_wly" path="vendor/oneplus/wly" remote="github" revision="lineage-21" />
-      <project name="Arman-ATI/vendor_oneplus_sm8450-common" path="vendor/oneplus/common" remote="github" revision="lineage-21" />
+      <project name="Arman-ATI/vendor_oneplus_sm8450-common" path="vendor/oneplus/sm8450-common" remote="github" revision="lineage-21" />
       <project name="Arman-ATI/vendor_realme_ferrarri" path="vendor/realme/ferrarri" remote="github" revision="lineage-21" />
 
           <!-- Oplus hardware -->
