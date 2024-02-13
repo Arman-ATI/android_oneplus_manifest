@@ -13,9 +13,3 @@ for op 10pro
         . build/envsetup.sh
         lunch evolution_wly-userdebug
         m evolution
-
-for gt2 pro
-        
-        . build/envsetup.sh
-        lunch evolution_ferrarri-userdebug
-        m evolution
