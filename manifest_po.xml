@@ -3,7 +3,6 @@
       <!-- blobs for Oplus device tree -->
       <project name="Arman-ATI/android_device_oneplus_wly" path="device/oneplus/wly" remote="github" revision="PixelOS" />
       <project name="Arman-ATI/android_device_oneplus_sm8450-common" path="device/oneplus/sm8450-common" remote="github" revision="PixelOS" />
-      <project name="Arman-ATI/android_device_realme_ferrarri" path="device/realme/ferrarri" remote="github" revision="PixelOS" />
 
       <!-- blobs for sm8450 kernel -->
       <project name="Arman-ATI/android_kernel_oneplus_sm8450" path="kernel/oneplus/sm8450" remote="github" revision="staging/lineage-20" />
@@ -13,7 +12,6 @@
           <!-- blobs for sm8450 vendor -->
       <project name="Arman-ATI/vendor_oneplus_wly" path="vendor/oneplus/wly" remote="github" revision="lineage-21" />
       <project name="Arman-ATI/vendor_oneplus_sm8450-common" path="vendor/oneplus/sm8450-common" remote="github" revision="lineage-21" />
-      <project name="Arman-ATI/vendor_realme_ferrarri" path="vendor/realme/ferrarri" remote="github" revision="lineage-21" />
 
           <!-- Oplus hardware -->
       <project name="Arman-ATI/android_hardware_oplus" path="hardware/oplus" remote="github" revision="PixelOS" />
