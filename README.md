@@ -2,7 +2,7 @@ Installing Repos
 
         repo init -u https://github.com/Evolution-X/manifest -b udc
 
-        git clone https://github.com/Arman-ATI/android_device_oneplus_manifest.git -b EvoX-GT .repo/local_manifests/
+        git clone https://github.com/Arman-ATI/android_device_oneplus_manifest.git -b alpha-GT .repo/local_manifests/
         
 sync repo
 
@@ -11,5 +11,5 @@ sync repo
 for gt2 pro
         
         . build/envsetup.sh
-        lunch evolution_ferrarri-userdebug
-        m evolution
+        lunch lineage_ferrarri-userdebug
+        make bacon
