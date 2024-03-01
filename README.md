@@ -1,8 +1,8 @@
 Installing Repos
 
-        repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
-
-        git clone https://github.com/Arman-ATI/android_device_oneplus_manifest.git -b PixelOS .repo/local_manifests/
+        repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
+        
+        git clone https://github.com/Arman-ATI/android_device_oneplus_manifest.git -b matrixx .repo/local_manifests/
         
 sync repo
 
@@ -11,11 +11,11 @@ sync repo
 for op 10pro
         
         . build/envsetup.sh
-        lunch aosp_wly-userdebug
-        make bacon
+        lunch lineage_wly-userdebug
+        m bacon
 
 for gt2 pro
         
         . build/envsetup.sh
-        lunch aosp_ferrarri-userdebug
-        make bacon
+        lunch lineage_ferrarri-userdebug
+        m bacon
